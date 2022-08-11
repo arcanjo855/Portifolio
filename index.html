@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Arcanjo</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bahianita&family=Josefin+Sans&family=Montserrat:wght@900&family=Mouse+Memoirs&family=Press+Start+2P&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+    <div class="navegacao glass">      
+        <nav class="menu">
+            <div class="nav-esquerda">
+                <a href="#home"><img class="nav-img" src="./assets/img/html-nav.svg" alt="Icone html"></a>
+                <a href="#home"><img class="nav-img nav-img-meio" src="./assets/img/css-nav.svg" alt="Icone css"></a>
+                <a href="#home"><img class="nav-img" src="./assets/img/javascript-nav.svg" alt="Icone css"></a>
+
+            </div>
+            <div class="nav-direita">       
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#sobre-mim">Sobre mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                </ul>
+            </div>  
+        </nav>
+        
+    </div>
+
+
+    <section class="main-content gradient" id="home">
+        <div class="home-content">
+            <div class="apresentacao">
+                <p>Oi, eu sou</p>
+                <h1>Rafael Arcanjo.</h1>
+                <h2>Programador Junior</h2>
+                <div>
+                    <a href="https://www.linkedin.com/in/rafael-arcanjo/" target="_blank"><button class="botao">Linkedin</button></a>
+                </div>
+            </div>
+            <div class="figura">
+                <img src="./assets/img/rafa.png" class="homeimg" alt="uma arte de rafael arcanjo em movimento">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="main-content sobre-mim" id="sobre-mim">
+        <div class="sobre-mim-content sobre-mim-animation">
+            <img src="./assets/img/reyna.png" alt="reyna pequenina" class="mini-reyna">
+            <div class="main-content-text">
+                <h1>Sobre mim</h1><br><br>
+                <p>Meu nome é Rafael Arcanjo e eu sou apaixonado por tecnologia.<br>
+                     Meu primeiro contato com programação foi em 2014 durante o <br>
+                     ensino fundamental como matéria bimestral, porém comecei a focar<br>
+                      mais durante a pandemia quando um amigo me apresentou à esse <br>
+                      mundo e eu me apaixonei por ele. </p><br>
+                <p>Hoje estou fazendo faculdade na área, pretendo conseguir minha<br> primeira vaga como desenvolvedor e com isso aprender e me <br>
+                    aprimorar cada vez mais no mundo da programação.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-content projetos" id="projetos">
+        <h1 class="projetos-titulo">Projetos</h1>
+        <div class="projetos-breve">
+            <div class="breve-bg">
+                <a href="https://landingpagehtmlcssc.netlify.app" target="_blank"><img src="./assets/img/landinpage.png" alt="imagem do meu projeto landing page" title="go to landing page"></a>
+            </div>
+            <div class="breve-bg">
+                <div class="projetos-breve-img">em breve</div>
+            </div>
+            <div class="breve-bg">
+                <div class="projetos-breve-img">em breve</div>
+            </div>
+                <div id="projeto-mais1"> 
+                    <div class="breve-bg">
+                        <div class="projetos-breve-img">em breve</div>
+                    </div>
+                </div>
+                <div id="projeto-mais2"> 
+                    <div class="breve-bg">
+                        <div class="projetos-breve-img">em breve</div>
+                    </div>
+                </div>
+                <div id="projeto-mais3"> 
+                    <div class="breve-bg">
+                        <div class="projetos-breve-img">em breve</div>
+                    </div>
+                </div>
+        </div>
+        
+        <div class="projetos-botao">
+            <button class="botao" onclick="leiamais()" id="bntleiamais">Ver mais</button>
+        </div>  
+        <div class="projetos-git">
+            <a href="https://github.com/arcanjo855" target="_blank"><p>Repósitorios no GitHub</p></a>
+        </div>  
+    </section>
+
+
+    <section class="main-content habilidades" id="habilidades">
+        <div class="habilidades-content">
+            <div class="habilidades-titulo">
+                <h1>Habilidades</h1>  
+            </div>
+            <div class="habilidades-texto">
+                <div class="container-esquerda">
+                    <div class="habilidade-img" id="html-icon">
+                        <div class="habilidades-icons"><img src="./assets/img/html-icon.svg" alt="icone logo html"></div>
+                    </div>
+                    <div class="habilidade-img" id="css-icon">
+                        <div class="habilidades-icons"><img src="./assets/img/css-icon.svg" alt="icone logo css"></div>
+                    </div>
+                    <div class="habilidade-img" id="javascript-icon">
+                        <div class="habilidades-icons"><img src="./assets/img/javascript-icon.svg" alt="icone logo javascript"></div>
+                    </div>
+                    <div class="habilidade-img" id="git-icon">
+                        <div class="habilidades-icons"><img src="./assets/img/git-icon.svg" alt="icone logo git"></div>
+                    </div>
+                    <div class="habilidade-img" id="github-icon">
+                        <div class="habilidades-icons"><img src="./assets/img/github-icon.svg" alt="icone logo gitub"></div>
+                    </div>
+                    
+                </div>
+                <div class="container-direita"  id="texto-descricao">
+                    <p>/* Passe o mouse por cima de alguma habilidade para ler a descrição */</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="rodape">
+        <div class="rodape-list">
+            <ul>
+                <li>E-mail para contato: rafaelarcanjo.dev@hotmail.com</li>
+                <li>Feito com ❤ por Rafael Arcanjo</li>
+            </ul>
+
+        </div>
+        <div class="rodape-img">
+            <div class="habilidade-img rodape-icons">
+                <div class="habilidades-icons rodape-icons"><a href="https://www.linkedin.com/in/rafael-arcanjo/" target="_blank"><img src="./assets/img/linkedin-icon.svg" title="linkedin" alt="icone logo linkedin"></a></div>
+            </div>
+            <div class="habilidade-img rodape-icons">
+                <div class="habilidades-icons rodape-icons"><a href="https://github.com/arcanjo855" target="_blank"><img src="./assets/img/github-icon.svg" title="github" alt="icone logo gitub"></a></div>
+            </div>
+        </div>
+    </footer>
+<script src="./assets/javascript.js"></script>
+
+</body>
+</html>
