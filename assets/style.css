@@ -288,6 +288,8 @@ p{
     transform: rotate(-55deg);
     cursor: pointer;
     margin-top: 49px;
+    font-family: 'Acme', sans-serif;
+    font-size: 19px;
 }
 
 .projetos-breve-img:hover {
